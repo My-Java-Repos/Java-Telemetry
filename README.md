@@ -25,17 +25,11 @@ mvn clean package docker:build
 Images
 
 ````bash
-docker image ls | grep mnadeem
+docker image ls
 
 ````
 
 
-````bash
-REPOSITORY                                                      TAG                 IMAGE ID            CREATED              SIZE
-mnadeem/boot-otel-tempo-provider1                               0.0.1-SNAPSHOT      7ddceebcc722        About a minute ago   169MB
-mnadeem/boot-otel-tempo-api                                     0.0.1-SNAPSHOT      a301242388a1        2 minutes ago        147MB
-mnadeem/boot-otel-tempo-docker                                  0.0.1-SNAPSHOT      061a20db744b        4 minutes ago        130MB
-````
 
 And then either `docker compose` or `docker stack`
 
